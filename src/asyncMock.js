@@ -8,7 +8,8 @@ const products = [
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         price: 350,
         stock:1,
-        category: "ceramica"  
+        category: "ceramica",
+        img: "/appv2/public/img/item1.jpeg"
     },
     {
         id: "2",

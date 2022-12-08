@@ -6,6 +6,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -14,10 +15,10 @@ function App() {
           </header>
           <Routes>
               <Route path='/' element={<ItemListContainer/>}></Route>
-              <Route path='/detail/:productId' element={<ItemDetailContainer/>} />
+              <Route path='/detail/:productId' element={<ItemDetailContainer />} />
               <Route path='/category/:categoryId' element={<ItemListContainer/>}/>
           </Routes>
-      </BrowserRouter>   
+      </BrowserRouter> 
     </div>
   )
 }
